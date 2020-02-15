@@ -16,22 +16,20 @@ links <- data.frame(
 "T0","T1","T2","T3",
 "T0","T1","T2","T3",
 "T0","T1","T2","T3",
-"journal","citation","publication","ranking","information","impact","science","patent","author","user",
-"country","collaboration","network","author","user","method","distribution","citation","query","journal",
-"information","patent","author","network","collaboration","index","graph","method","indicator","citation",
-"network","collaboration","citation","index","publication","journal","patent","information","science","researcher"
-
+"journal","citation","author","science","publication","network","field","index","scientific","information",
+"index","patent","citation","ranking","indicator","search","journal","publication","author","university",
+"collaboration","network","country","publication","china","international","index","journal","citation","science",
+"patent","country","journal","university","citation","technology","network","publication","china","scientific"
 
 ), 
   value=c(
-65,14,8,77,
-200,36,24,115,
-293,86,11,304,
-89.28,78.12,55.80,55.80,55.80,44.64,44.64,44.64,44.64,44.64,
-20.92,15.69,13.08,13.08,13.08,13.08,13.08,13.08,10.46,10.46,
-4.89,4.89,4.89,4.89,3.91,3.91,3.91,3.91,3.91,3.91,
-58.35,58.35,58.35,58.35,48.63,48.63,48.63,38.90,38.90,38.90
-
+320,274,69,105,
+1026,587,59,117,
+1181,470,393,592,
+344.59,344.59,287.16,229.73,229.73,229.73,229.73,229.73,229.73,172.30,
+204.77,170.64,170.64,136.51,136.51,102.38,102.38,102.38,102.38,102.38,
+95.69,53.16,53.16,53.16,53.16,42.53,42.53,42.53,42.53,42.53,
+118.71,101.75,101.75,84.79,67.83,67.83,67.83,67.83,67.83,67.83
 )
   )
  

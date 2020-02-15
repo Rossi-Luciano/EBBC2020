@@ -16,22 +16,23 @@ links <- data.frame(
 "T0","T1","T2","T3",
 "T0","T1","T2","T3",
 "T0","T1","T2","T3",
-"citation","index","field","university","information","patent","author","collaboration","research","publication",
-"journal","peer","information","review","science","technology","discipline","country","citation","knowledge",
-"network","citation","feature","research","cited","publication","topic","social","article","journal",
-"index","journal","citation","network","research","indicator","paper","publication","impact","author"
+"citation","index","information","author","scientific","method","publication","collaboration","network","science",
+"journal","citation","impact","publication","factor","author","science","field","discipline","query",
+"index","country","network","citation","patent","journal","publication","collaboration","technology","international",
+"patent","university","journal","information","citation","social","model","performance","ranking","science"
 
 
 
 ), 
   value=c(
-107,14,6,34,
-237,63,34,34,
-248,26,10,38,
-84.56,73.99,63.42,52.85,52.85,52.85,52.85,52.85,52.85,52.85,
-16.6,11.62,11.62,9.96,9.96,9.96,8.3,8.3,8.3,8.3,
-7.04,7.04,6.16,4.4,4.4,4.4,4.4,4.4,4.4,3.52,
-16.3,14.67,13.04,9.78,9.78,9.78,8.15,8.15,8.15,8.15
+71,43,26,25,
+199,68,22,82,
+93,90,72,69,
+43.81,43.81,43.81,37.55,37.55,31.29,31.29,31.29,31.29,31.29,
+37.69,28.27,18.84,18.84,18.84,15.70,15.70,15.70,15.70,15.70,
+18.18,14.55,14.55,12.73,10.91,10.91,10.91,9.09,9.09,9.09,
+25.60,22.40,19.20,19.20,19.20,16.00,16.00,12.80,12.80,12.80
+
 )
   )
  
@@ -49,7 +50,8 @@ links$IDtarget <- match(links$target, nodes$name)-1
 p <- sankeyNetwork(Links = links, Nodes = nodes,
               Source = "IDsource", Target = "IDtarget",
               Value = "value", NodeID = "name", 
-              sinksRight=FALSE, fontSize = 16, nodeWidth = 50)
+              sinksRight=FALSE, fontSize = 30, nodeWidth = 50, nodePadding=10)
 p
+
 
 
